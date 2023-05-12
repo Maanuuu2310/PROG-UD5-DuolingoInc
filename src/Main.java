@@ -1,8 +1,11 @@
+
 import java.util.*;
+
+import com.salesianos.Diccionario.Dictionary;
 
 public class Main {
     public static void main(String[] args) {
-        Palabra dictionary = new Palabra();
+        Dictionary dictionary = new Dictionary();
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Bienvenido al diccionario de palabras por inicial.");

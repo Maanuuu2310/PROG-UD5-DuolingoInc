@@ -1,9 +1,11 @@
+package com.salesianos.Diccionario;
+
 import java.util.*;
 
-public class Palabra {
+public class Dictionary {
 private Map<Character, Set<String>> words;
 
-public Palabra() {
+public Dictionary() {
     words = new HashMap<>();
 }
 
